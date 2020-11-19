@@ -6,7 +6,11 @@
 
     <groupId>org.example</groupId>
     <artifactId>sparktest01</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>sparktest02</module>
+    </modules>
 
     <dependencies>
     <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
